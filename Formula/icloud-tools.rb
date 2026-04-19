@@ -1,8 +1,8 @@
 class IcloudTools < Formula
   desc "CLI for managing iCloud Drive files (replacement for brctl download/evict)"
   homepage "https://github.com/icanhasjonas/icloud-tools"
-  url "https://github.com/icanhasjonas/icloud-tools/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "436b30b0ca2bef080f9b6d5dd4c7ffefc5886efd9aee1c37e96611786d64912c"
+  url "https://github.com/icanhasjonas/icloud-tools/archive/refs/tags/v0.3.1.tar.gz"
+  sha256 "207cc1b5339a4cd21682c7130cbb74ee9b3d7ffd5a5da00624fac920e2bfc2c1"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]
